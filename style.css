@@ -1,0 +1,139 @@
+body ,h2{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.landing {
+  background-image: url(/media/pexels-cats-coming-1571077.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white;
+}
+
+header a {
+  text-decoration: none;
+  color: rgba(244, 194, 14, 0.994);
+  font-weight: bold;
+  min-width: 120px;
+}
+
+header{
+    display:flex;
+    padding: 1em;
+    flex-wrap: wrap;
+    row-gap: 1em;
+    
+
+} 
+
+#logo{
+    flex: 3 ;
+    font-size: 3em;
+    min-width: 260px;
+}
+
+nav{
+    display: flex;
+    flex:1;
+    align-items: center;
+}
+
+nav a{
+    flex:1
+}
+
+nav a:hover{
+    color: gold
+}
+
+.maintext{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    padding: 30px;
+
+
+}
+
+.tagline1{
+    color: gold;
+    font-size: 2.5em;
+    font-weight: bolder ;
+}
+
+.tagline2{
+    color: white;
+}
+
+
+.maintext div{
+    margin-top:.75em ;
+}
+
+.maintext button{
+    width:28vw ;
+    margin-top:2em;
+    border-radius: 10px ;
+
+    background-color: gold;
+    border-color: gold;
+    font-weight: bolder;
+    cursor: pointer;
+    padding:.7em ;
+    
+    
+}  
+
+.menu ,.locations  {
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    background:linear-gradient(to right,rgb(100, 100, 100),rgb(53, 52, 52));
+}
+
+
+#menuheading,#locheading{
+    background:linear-gradient(to right,rgb(100, 100, 100),rgb(53, 52, 52));
+    font-size:2.5em;
+    color:gold;
+    display: flex;
+    justify-content: center;
+    padding: 1em;;
+}
+
+.menu th{
+    color: gold;
+    font-size: 2em;
+}
+
+.locations h2{
+    color:gold;
+    margin-bottom: .8em;
+
+
+}
+i{
+    margin-right: .5em;
+}
+
+.table{
+    width: 100%;
+    padding: 1em;
+}
+.menu td:nth-child(1){
+    flex:1;
+    justify-self: left;
+
+}
+.menu td:nth-child(2){
+    justify-self: right;
+
+}
+
+footer{
+    background-color: rgb(42, 40, 40);
+    color: yellow;
+    
+}
+
